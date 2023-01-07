@@ -1,15 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+.food-grid {
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content:center;
+}
+
+.food-item {
+    margin: 50px;
+}
 
 
 
+h1 {
+    margin: 0px;
+    font-size: 70px;
+    text-align: center;
+}
 
+p {
+    font-size: 18px;
+    text-align: center;
+}
 
+.item-title {
+    font-size: 20px;
+    text-align: center;
+}
 
+li {
+    font-size: 10pt;
+}
 
+.images {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
 
+.price {
+    color: rgba(255,76,48,1);
+}
 
+.drink-grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+}
 
+.veg-breakfast {
+    background-color:rgba(251,192,147,1);
+    border:10px solid rgba(251,192,147,1);
+}
 
+.drink {
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
-.american-breakfast-image {
-    
+.d-price {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgba(255,76,48,1)
 }
